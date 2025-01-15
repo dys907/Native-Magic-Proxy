@@ -7,3 +7,6 @@ samplemox.txt
 
 # Ignore data
 data/
+
+#env
+.env
