@@ -1,12 +1,7 @@
-// const express = require("express");
-// const fs = require("fs").promises;
-// const path = require("path");
-// const dotenv = require("dotenv");
-
-import express from "express";
-import fs from "fs/promises";
-import path from "path";
-import dotenv from "dotenv";
+const express = require("express");
+const fs = require("fs").promises;
+const path = require("path");
+const dotenv = require("dotenv");
 
 dotenv.config();
 
