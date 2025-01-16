@@ -2,7 +2,6 @@
 node_modules/
 
 # Ignore sample.txt and samplemox.txt
-sample.txt
 samplemox.txt
 
 # Ignore data

@@ -1,7 +1,14 @@
-const express = require("express");
-const fs = require("fs").promises;
-const path = require("path");
-const dotenv = require("dotenv");
+// const express = require("express");
+// const fs = require("fs").promises;
+// const path = require("path");
+// const dotenv = require("dotenv");
+
+import express from "express";
+import fs from "fs/promises";
+import path from "path";
+import dotenv from "dotenv";
+
+const __dirname = import.meta.dirname
 
 dotenv.config();
 
@@ -9,8 +16,8 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 //routers
-const buildDeckRouter = require("./src/routes/buildDeckRouter");
-
+// const buildDeckRouter = require("./src/routes/buildDeckRouter");
+import  buildDeckRouter  from "./src/routes/buildDeckRouter.js";
 
 //use routers
 

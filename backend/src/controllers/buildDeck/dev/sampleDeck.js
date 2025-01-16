@@ -4,20 +4,26 @@
  * A local json file is used as the datastore
  *  This is a get request.
  */
-const path = require("path");
-const {
-  readDeckFiles,
-  processDeckLines,
-  readLocalDataStore,
-  findCardInfo,
-} = require("../../../helper/buildDeckHelper");
-const regex = require("../../../configs/regex.config");
+// const path = require("path");
+import path from "path";
+import {readDeckFiles, processDeckLines, readLocalDataStore, findCardInfo} from "../../../helper/buildDeckHelper.js"
+import regex from "../../../configs/regex.config.js"
+import { CLIENT_RENEG_WINDOW } from "tls";
+// const {
+//   readDeckFiles,
+//   processDeckLines,
+//   readLocalDataStore,
+//   findCardInfo,
+// } = require("../../../helper/buildDeckHelper");
+// const regex = require("../../../configs/regex.config");
+const __dirname = import.meta.dirname
 
 const sampleDeck = async (req, res) => {
   let processedDeck = [];
   const filePath = path.join(__dirname, "..","..", "..", "..", "samplemox.txt");
   const dataStorePath = path.join(
     __dirname,
+    "..",
     "..",
     "..",
     "..",
@@ -43,4 +49,4 @@ const sampleDeck = async (req, res) => {
   }
 };
 
-module.exports = sampleDeck;
+export default sampleDeck;

@@ -1,7 +1,14 @@
-const fs = require("fs").promises;
-const path = require("path");
-const { readLocalDataStore, findCardInfo, processDeckLines } = require("../../../helper/buildDeckHelper");
-const regex = require("../../../configs/regex.config");
+// const fs = require("fs").promises;
+// const path = require("path");
+// const { readLocalDataStore, findCardInfo, processDeckLines } = require("../../../helper/buildDeckHelper");
+// const regex = require("../../../configs/regex.config");
+
+import fs from "fs/promises";
+import path from "path";
+import { readLocalDataStore, findCardInfo, processDeckLines } from "../../../helper/buildDeckHelper.js";
+import regex from "../../../configs/regex.config.js";
+
+const __dirname = import.meta.dirname
 
 const useLocalDataStore = async (req, res) => {
 
@@ -35,5 +42,4 @@ const useLocalDataStore = async (req, res) => {
     return;
   }
 };
-
-module.exports = useLocalDataStore;
+export default useLocalDataStore;
