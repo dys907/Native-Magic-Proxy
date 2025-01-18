@@ -1,0 +1,903 @@
+[
+    {
+        "id": 1,
+        "name": "Frodo, Adventurous Hobbit",
+        "imageuri": "https://cards.scryfall.io/normal/front/3/2/328df403-7428-4b17-bdd1-9759fc0f32d8.jpg?1686963703",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Scout"
+    },
+    {
+        "id": 2,
+        "name": "Sam, Loyal Attendant",
+        "imageuri": "https://cards.scryfall.io/normal/front/6/8/687a2b76-3f05-4732-bd9b-513d06d16300.jpg?1686963755",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Peasant"
+    },
+    {
+        "id": 3,
+        "name": "Anguished Unmaking",
+        "imageuri": "https://cards.scryfall.io/normal/front/1/6/16de91dc-5d82-43ec-84ad-67bae644795a.jpg?1673148273",
+        "type": [
+            "Instant"
+        ],
+        "rawTypes": "Instant"
+    },
+    {
+        "id": 4,
+        "name": "Apothecary White",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/f/4fedf84e-55ca-4334-a2c1-6e991112bb68.jpg?1706239557",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Human Cleric"
+    },
+    {
+        "id": 5,
+        "name": "Arcane Signet",
+        "imageuri": "https://cards.scryfall.io/normal/front/2/1/211a1d86-7257-4621-ae05-c2b235c063f0.jpg?1726284514",
+        "type": [
+            "Artifact"
+        ],
+        "rawTypes": "Artifact"
+    },
+    {
+        "id": 6,
+        "name": "Ash Barrens",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/8/a881be73-7b22-418f-bf20-a07400b3b836.jpg?1726285355",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 7,
+        "name": "Assemble the Entmoot",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/0/409c226b-ef01-4ccd-b23e-d94bdc1e4aa5.jpg?1686964035",
+        "type": [
+            "Enchantment"
+        ],
+        "rawTypes": "Enchantment"
+    },
+    {
+        "id": 8,
+        "name": "Astrid Peth",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/c/4cda3aa2-5fac-4188-bdad-dc369a089d00.jpg?1696636517",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Human"
+    },
+    {
+        "id": 9,
+        "name": "Banquet Guests",
+        "imageuri": "https://cards.scryfall.io/normal/front/f/4/f4994a52-667f-46cf-9893-2f18b1f8bea2.jpg?1686964143",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Halfling Citizen"
+    },
+    {
+        "id": 10,
+        "name": "Battle at the Bridge",
+        "imageuri": "https://cards.scryfall.io/normal/front/7/4/74d8b644-4cca-451e-a46c-5237c13bf373.jpg?1576381615",
+        "type": [
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery"
+    },
+    {
+        "id": 11,
+        "name": "Bilbo, Birthday Celebrant",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/c/4cf6c13b-d898-4066-b006-9a7fa896d55a.jpg?1686964152",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Rogue"
+    },
+    {
+        "id": 12,
+        "name": "Birds of Paradise",
+        "imageuri": "https://cards.scryfall.io/normal/front/3/d/3d69a3e0-6a2e-475a-964e-0affed1c017d.jpg?1722384747",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Bird"
+    },
+    {
+        "id": 13,
+        "name": "Bojuka Bog",
+        "imageuri": "https://cards.scryfall.io/normal/front/e/2/e286c618-ef42-433f-ade9-0c1235a295e3.jpg?1726285372",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 14,
+        "name": "Brushland",
+        "imageuri": "https://cards.scryfall.io/normal/front/1/8/18d236ce-3b78-403a-b5f9-4fb44123d85b.jpg?1674422171",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 15,
+        "name": "Canopy Vista",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/7/b76f2de1-ea17-40b0-8d90-4c4369516eff.jpg?1706241128",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land — Forest Plains"
+    },
+    {
+        "id": 16,
+        "name": "Cauldron Familiar",
+        "imageuri": "https://cards.scryfall.io/normal/front/3/2/32cf273e-b8f7-434b-9d5d-883dfd6f7423.jpg?1600699817",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Cat"
+    },
+    {
+        "id": 17,
+        "name": "Command Tower",
+        "imageuri": "https://cards.scryfall.io/normal/front/1/2/129d1bbd-83ad-4953-bf6d-b55989b2529c.jpg?1733640092",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 18,
+        "name": "Cultivate",
+        "imageuri": "https://cards.scryfall.io/normal/front/6/8/684063e2-c9a5-4e7c-b702-94e3e114d063.jpg?1726285000",
+        "type": [
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery"
+    },
+    {
+        "id": 19,
+        "name": "Dawn of Hope",
+        "imageuri": "https://cards.scryfall.io/normal/front/c/f/cf2a9e82-8670-4b7f-b5f0-8e10f8aeff1c.jpg?1572892521",
+        "type": [
+            "Enchantment"
+        ],
+        "rawTypes": "Enchantment"
+    },
+    {
+        "id": 20,
+        "name": "Dusk // Dawn",
+        "imageuri": "https://cards.scryfall.io/normal/front/5/f/5f2facfb-dfde-4e5b-8f6d-4fabb4c85519.jpg?1706240571",
+        "type": [
+            "Sorcery",
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery // Sorcery"
+    },
+    {
+        "id": 21,
+        "name": "Elanor Gardner",
+        "imageuri": "https://cards.scryfall.io/normal/front/6/1/6165eb73-49a8-4337-aa5d-7d9d48b916c9.jpg?1719684290",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Scout"
+    },
+    {
+        "id": 22,
+        "name": "Essence Warden",
+        "imageuri": "https://cards.scryfall.io/normal/front/3/1/31ca84d1-30a6-432b-966c-089fb6652a89.jpg?1592672942",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Elf Shaman"
+    },
+    {
+        "id": 23,
+        "name": "Experimental Confectioner",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/9/49aaf5db-9418-4b97-97da-736c674905d4.jpg?1692940565",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Human Peasant"
+    },
+    {
+        "id": 24,
+        "name": "Farmer Cotton",
+        "imageuri": "https://cards.scryfall.io/normal/front/2/5/25b49eaa-13e7-4f4e-b0dc-56ebd28a4a22.jpg?1686964217",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Peasant"
+    },
+    {
+        "id": 25,
+        "name": "Farseek",
+        "imageuri": "https://cards.scryfall.io/normal/front/7/f/7fac6154-fb85-45e5-8c9f-f02d0f1be24e.jpg?1702429553",
+        "type": [
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery"
+    },
+    {
+        "id": 26,
+        "name": "Feasting Hobbit",
+        "imageuri": "https://cards.scryfall.io/normal/front/1/7/17662301-7284-40d4-af51-45a496c0eac0.jpg?1691108147",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Halfling Citizen"
+    },
+    {
+        "id": 27,
+        "name": "Feasting Troll King",
+        "imageuri": "https://cards.scryfall.io/normal/front/9/a/9a6bb435-1205-416a-a5a0-ca6d37b4dcb2.jpg?1572490524",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Troll Noble"
+    },
+    {
+        "id": 28,
+        "name": "Fell the Mighty",
+        "imageuri": "https://cards.scryfall.io/normal/front/5/a/5a3e8132-6576-456c-8777-9e8cb52595fc.jpg?1706240580",
+        "type": [
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery"
+    },
+    {
+        "id": 29,
+        "name": "Field-Tested Frying Pan",
+        "imageuri": "https://cards.scryfall.io/normal/front/1/d/1d770a59-1c54-407e-9c58-8d8b6f44c90a.jpg?1686963795",
+        "type": [
+            "Artifact"
+        ],
+        "rawTypes": "Artifact — Equipment"
+    },
+    {
+        "id": 30,
+        "name": "Forest",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/6/b69adddd-3626-45d6-8100-26cf1f314d00.jpg?1733917948",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Forest"
+    },
+    {
+        "id": 31,
+        "name": "Forest",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/6/b69adddd-3626-45d6-8100-26cf1f314d00.jpg?1733917948",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Forest"
+    },
+    {
+        "id": 32,
+        "name": "Forest",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/6/b69adddd-3626-45d6-8100-26cf1f314d00.jpg?1733917948",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Forest"
+    },
+    {
+        "id": 33,
+        "name": "Forest",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/6/b69adddd-3626-45d6-8100-26cf1f314d00.jpg?1733917948",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Forest"
+    },
+    {
+        "id": 34,
+        "name": "Forest",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/6/b69adddd-3626-45d6-8100-26cf1f314d00.jpg?1733917948",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Forest"
+    },
+    {
+        "id": 35,
+        "name": "Forest",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/6/b69adddd-3626-45d6-8100-26cf1f314d00.jpg?1733917948",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Forest"
+    },
+    {
+        "id": 36,
+        "name": "Forest",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/6/b69adddd-3626-45d6-8100-26cf1f314d00.jpg?1733917948",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Forest"
+    },
+    {
+        "id": 37,
+        "name": "Fortified Village",
+        "imageuri": "https://cards.scryfall.io/normal/front/e/b/eb2e9534-2eda-4e41-8a87-181e5eb8c328.jpg?1706241159",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 38,
+        "name": "Ghost Quarter",
+        "imageuri": "https://cards.scryfall.io/normal/front/1/2/12f8071c-8955-4aa2-889c-6043df047223.jpg?1562272439",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 39,
+        "name": "Gilded Goose",
+        "imageuri": "https://cards.scryfall.io/normal/front/8/e/8ecc97f2-0d24-4ea7-b10e-26b61357711d.jpg?1682209507",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Bird"
+    },
+    {
+        "id": 40,
+        "name": "Gingerbread Cabin",
+        "imageuri": "https://cards.scryfall.io/normal/front/3/b/3b583cc8-95e6-4772-afe3-d405b65836e0.jpg?1625980155",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land — Forest"
+    },
+    {
+        "id": 41,
+        "name": "Gollum, Obsessed Stalker",
+        "imageuri": "https://cards.scryfall.io/normal/front/e/5/e5a43cf0-60b3-4770-945c-41ee3ec54d5a.jpg?1686963939",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Horror"
+    },
+    {
+        "id": 42,
+        "name": "Greta, Sweettooth Scourge",
+        "imageuri": "https://cards.scryfall.io/normal/front/2/c/2cfd365e-34d1-4224-b925-119000311934.jpg?1692939325",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Human Warrior"
+    },
+    {
+        "id": 43,
+        "name": "Gwaihir, Greatest of the Eagles",
+        "imageuri": "https://cards.scryfall.io/normal/front/9/c/9c17c3bb-aa20-43b0-8a28-b46a18b060ef.jpg?1686963834",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Bird Noble"
+    },
+    {
+        "id": 44,
+        "name": "Isolated Chapel",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/f/af5398d1-804b-4a38-b16a-57a855e9c3b0.jpg?1712355045",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 45,
+        "name": "Lobelia, Defender of Bag End",
+        "imageuri": "https://cards.scryfall.io/normal/front/6/d/6d67a523-bda9-4f8b-bd50-dc015f9b4b7a.jpg?1686963949",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Citizen"
+    },
+    {
+        "id": 46,
+        "name": "Many Partings",
+        "imageuri": "https://cards.scryfall.io/normal/front/d/1/d179dbbe-9c79-4dbc-955a-5209a3e2745a.jpg?1686969470",
+        "type": [
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery"
+    },
+    {
+        "id": 47,
+        "name": "Mentor of the Meek",
+        "imageuri": "https://cards.scryfall.io/normal/front/2/8/280ca0f4-be07-452a-bbc0-c25570f14008.jpg?1736467552",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Human Soldier"
+    },
+    {
+        "id": 48,
+        "name": "Merry, Warden of Isengard",
+        "imageuri": "https://cards.scryfall.io/normal/front/5/6/56a66d3b-3308-4db7-8fc1-97bb85bdcbf3.jpg?1686964274",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Advisor"
+    },
+    {
+        "id": 49,
+        "name": "Mirkwood Bats",
+        "imageuri": "https://cards.scryfall.io/normal/front/1/5/15f035df-784a-4dc8-b7f5-77139a4e6e99.jpg?1686968575",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Bat"
+    },
+    {
+        "id": 50,
+        "name": "Mortality Spear",
+        "imageuri": "https://cards.scryfall.io/normal/front/f/1/f1f39fe7-dc12-49c9-80ac-4135dc1f8f08.jpg?1627429727",
+        "type": [
+            "Instant"
+        ],
+        "rawTypes": "Instant"
+    },
+    {
+        "id": 51,
+        "name": "Motivated Pony",
+        "imageuri": "https://cards.scryfall.io/normal/front/9/b/9be4f8b6-90ef-4c77-ae70-bffae229d243.jpg?1686964093",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Horse"
+    },
+    {
+        "id": 52,
+        "name": "Murmuring Bosk",
+        "imageuri": "https://cards.scryfall.io/normal/front/5/a/5aca73a9-e90d-48c6-bdd9-9a3f4f552de3.jpg?1673306119",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land — Forest"
+    },
+    {
+        "id": 53,
+        "name": "Nadier's Nightblade",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/c/bc9926d7-91b7-4067-b590-a0430bf68d16.jpg?1717047445",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Elf Warrior"
+    },
+    {
+        "id": 54,
+        "name": "Necroblossom Snarl",
+        "imageuri": "https://cards.scryfall.io/normal/front/d/d/ddf6ece8-d7c8-43a7-a318-f6eac2932b15.jpg?1726285464",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 55,
+        "name": "Night of the Sweets' Revenge",
+        "imageuri": "https://cards.scryfall.io/normal/front/2/7/27f53bed-7075-4303-aa9e-fcca0a266e19.jpg?1692938931",
+        "type": [
+            "Enchantment"
+        ],
+        "rawTypes": "Enchantment"
+    },
+    {
+        "id": 56,
+        "name": "Of Herbs and Stewed Rabbit",
+        "imageuri": "https://cards.scryfall.io/normal/front/c/5/c58623cb-8b49-470c-9622-dd6e09d47599.jpg?1688569222",
+        "type": [
+            "Enchantment"
+        ],
+        "rawTypes": "Enchantment — Saga"
+    },
+    {
+        "id": 57,
+        "name": "Painful Truths",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/a/ba841bb9-1b6e-45e4-af66-51ee4fabb504.jpg?1712354338",
+        "type": [
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery"
+    },
+    {
+        "id": 58,
+        "name": "Path of Ancestry",
+        "imageuri": "https://cards.scryfall.io/normal/front/1/b/1b0431c1-4310-46f8-8d1e-b6e56de7453d.jpg?1712355087",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 59,
+        "name": "Path to Exile",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/7/a7aed564-2d2d-42c4-bf11-812bc1a0284c.jpg?1712354092",
+        "type": [
+            "Instant"
+        ],
+        "rawTypes": "Instant"
+    },
+    {
+        "id": 60,
+        "name": "Peregrin Took",
+        "imageuri": "https://cards.scryfall.io/normal/front/f/5/f5baee8d-88e7-4468-94a9-66ca8e2caf15.jpg?1686969525",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Citizen"
+    },
+    {
+        "id": 61,
+        "name": "Pippin, Warden of Isengard",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/0/a0a7a648-125a-4cf4-bf8b-e1773d8723ff.jpg?1686964312",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Advisor"
+    },
+    {
+        "id": 62,
+        "name": "Plains",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/6/464723b3-0723-45f2-a258-32d098c39039.jpg?1733917909",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Plains"
+    },
+    {
+        "id": 63,
+        "name": "Plains",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/6/464723b3-0723-45f2-a258-32d098c39039.jpg?1733917909",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Plains"
+    },
+    {
+        "id": 64,
+        "name": "Plains",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/6/464723b3-0723-45f2-a258-32d098c39039.jpg?1733917909",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Plains"
+    },
+    {
+        "id": 65,
+        "name": "Plains",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/6/464723b3-0723-45f2-a258-32d098c39039.jpg?1733917909",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Plains"
+    },
+    {
+        "id": 66,
+        "name": "Prize Pig",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/0/a0b202d8-3c25-467e-86ed-6bea19bb869f.jpg?1686964103",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Boar"
+    },
+    {
+        "id": 67,
+        "name": "Prosperous Innkeeper",
+        "imageuri": "https://cards.scryfall.io/normal/front/0/9/096d3c0c-98e2-4cfc-a6e1-fddb0359c63f.jpg?1627708190",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Halfling Citizen"
+    },
+    {
+        "id": 68,
+        "name": "Radiant Grove",
+        "imageuri": "https://cards.scryfall.io/normal/front/e/0/e0f9dca6-e5ae-4714-8a59-2ef1d8f1e82d.jpg?1673308352",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land — Forest Plains"
+    },
+    {
+        "id": 69,
+        "name": "Rapacious Guest",
+        "imageuri": "https://cards.scryfall.io/normal/front/f/f/ff9dfba4-07d2-4407-a441-88acc7284d43.jpg?1686963959",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Halfling Citizen"
+    },
+    {
+        "id": 70,
+        "name": "Restless Cottage",
+        "imageuri": "https://cards.scryfall.io/normal/front/7/8/787eadf3-5005-4ae5-820f-4012a4d4e1a5.jpg?1692939998",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 71,
+        "name": "Revive the Shire",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/6/46b7f493-1b57-4b07-8510-30703282f879.jpg?1686969568",
+        "type": [
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery"
+    },
+    {
+        "id": 72,
+        "name": "Rogue's Passage",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/2/a2a424ea-ef32-4ac5-8f8c-3ea1839f01d4.jpg?1730489588",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 73,
+        "name": "Rosie Cotton of South Lane",
+        "imageuri": "https://cards.scryfall.io/normal/front/7/5/75338f49-1f02-4333-87e4-5779ef14e688.jpg?1686967894",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Peasant"
+    },
+    {
+        "id": 74,
+        "name": "Samwise Gamgee",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/1/a1b6f13e-63d0-46bf-aa57-23c2dbdf62dd.jpg?1686969973",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Peasant"
+    },
+    {
+        "id": 75,
+        "name": "Sandsteppe Citadel",
+        "imageuri": "https://cards.scryfall.io/normal/front/3/7/37f7d30c-91ec-4d02-9ee0-ed4de495cbf5.jpg?1690006458",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 76,
+        "name": "Sanguine Bond",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/d/ad4de9f1-7a39-45af-828e-c59234d9e9b9.jpg?1625193373",
+        "type": [
+            "Enchantment"
+        ],
+        "rawTypes": "Enchantment"
+    },
+    {
+        "id": 77,
+        "name": "Savvy Hunter",
+        "imageuri": "https://cards.scryfall.io/normal/front/1/5/15c98441-2b31-4e48-a399-f36dffcfa41d.jpg?1572490818",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Human Warrior"
+    },
+    {
+        "id": 78,
+        "name": "Scattered Groves",
+        "imageuri": "https://cards.scryfall.io/normal/front/0/8/0834b6e2-7a92-4767-8aca-9ec8961cd33e.jpg?1712355111",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land — Forest Plains"
+    },
+    {
+        "id": 79,
+        "name": "Scoured Barrens",
+        "imageuri": "https://cards.scryfall.io/normal/front/2/6/2632a4b2-9ca6-4b67-9a99-14f52ad3dc41.jpg?1730489596",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 80,
+        "name": "Shineshadow Snarl",
+        "imageuri": "https://cards.scryfall.io/normal/front/3/d/3d483bcf-438a-499b-86a5-6357d718faf1.jpg?1698988623",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 81,
+        "name": "Shire Shirriff",
+        "imageuri": "https://cards.scryfall.io/normal/front/4/4/444b687f-2571-4c55-a497-d24b9e18bc0f.jpg?1686967920",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Halfling Soldier"
+    },
+    {
+        "id": 82,
+        "name": "Shire Terrace",
+        "imageuri": "https://cards.scryfall.io/normal/front/2/5/25932483-58cd-4ae5-82bf-ab455177d117.jpg?1686970417",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 83,
+        "name": "Sol Ring",
+        "imageuri": "https://cards.scryfall.io/normal/front/8/2/82f1a8a3-7fdb-49a3-9649-b5c0b4755cd5.jpg?1726284526",
+        "type": [
+            "Artifact"
+        ],
+        "rawTypes": "Artifact"
+    },
+    {
+        "id": 84,
+        "name": "Sunpetal Grove",
+        "imageuri": "https://cards.scryfall.io/normal/front/0/f/0f234312-00e8-49f7-a489-f4c316b0a81a.jpg?1562550765",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    },
+    {
+        "id": 85,
+        "name": "Swamp",
+        "imageuri": "https://cards.scryfall.io/normal/front/0/4/040d064e-b023-4750-afeb-1f58e36bc4ab.jpg?1733917928",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Swamp"
+    },
+    {
+        "id": 86,
+        "name": "Swamp",
+        "imageuri": "https://cards.scryfall.io/normal/front/0/4/040d064e-b023-4750-afeb-1f58e36bc4ab.jpg?1733917928",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Swamp"
+    },
+    {
+        "id": 87,
+        "name": "Swamp",
+        "imageuri": "https://cards.scryfall.io/normal/front/0/4/040d064e-b023-4750-afeb-1f58e36bc4ab.jpg?1733917928",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Swamp"
+    },
+    {
+        "id": 88,
+        "name": "Swamp",
+        "imageuri": "https://cards.scryfall.io/normal/front/0/4/040d064e-b023-4750-afeb-1f58e36bc4ab.jpg?1733917928",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Basic Land — Swamp"
+    },
+    {
+        "id": 89,
+        "name": "Swords to Plowshares",
+        "imageuri": "https://cards.scryfall.io/normal/front/b/1/b16321b6-3e28-424b-ac72-038cc4ed6458.jpg?1726284598",
+        "type": [
+            "Instant"
+        ],
+        "rawTypes": "Instant"
+    },
+    {
+        "id": 90,
+        "name": "The Battle of Bywater",
+        "imageuri": "https://cards.scryfall.io/normal/front/9/b/9bae7a4d-9117-43c5-a048-80a0ddadc034.jpg?1708013075",
+        "type": [
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery"
+    },
+    {
+        "id": 91,
+        "name": "The Gaffer",
+        "imageuri": "https://cards.scryfall.io/normal/front/8/6/863ed552-dc6d-4910-b188-3cefc3ebf0ed.jpg?1686963805",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Halfling Peasant"
+    },
+    {
+        "id": 92,
+        "name": "The Shire",
+        "imageuri": "https://cards.scryfall.io/normal/front/d/5/d5178a1b-588b-4414-a370-ac6eed51187a.jpg?1686970405",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Legendary Land"
+    },
+    {
+        "id": 93,
+        "name": "Tireless Provisioner",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1682209630",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Elf Scout"
+    },
+    {
+        "id": 94,
+        "name": "Toxic Deluge",
+        "imageuri": "https://cards.scryfall.io/normal/front/5/a/5aa02b7d-db31-4924-b75e-eb02f332ca3a.jpg?1717013647",
+        "type": [
+            "Sorcery"
+        ],
+        "rawTypes": "Sorcery"
+    },
+    {
+        "id": 95,
+        "name": "Trail of Crumbs",
+        "imageuri": "https://cards.scryfall.io/normal/front/2/6/2688ac16-4ed6-4e79-815a-be173deb4603.jpg?1572490686",
+        "type": [
+            "Enchantment"
+        ],
+        "rawTypes": "Enchantment"
+    },
+    {
+        "id": 96,
+        "name": "Treebeard, Gracious Host",
+        "imageuri": "https://cards.scryfall.io/normal/front/c/f/cf6be41a-1acd-4668-8f13-ccd495fbc7bd.jpg?1686964392",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Legendary Creature — Treefolk"
+    },
+    {
+        "id": 97,
+        "name": "Well of Lost Dreams",
+        "imageuri": "https://cards.scryfall.io/normal/front/a/8/a8c10535-c77e-4a40-b19f-23f7cb691230.jpg?1625979661",
+        "type": [
+            "Artifact"
+        ],
+        "rawTypes": "Artifact"
+    },
+    {
+        "id": 98,
+        "name": "Wicked Wolf",
+        "imageuri": "https://cards.scryfall.io/normal/front/0/9/09476eac-55d2-4955-8951-ae4ce117c98b.jpg?1572490698",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Wolf"
+    },
+    {
+        "id": 99,
+        "name": "Witch of the Moors",
+        "imageuri": "https://cards.scryfall.io/normal/front/6/9/6914b30b-24f3-48cb-832f-c1f8510e2c9c.jpg?1712354364",
+        "type": [
+            "Creature"
+        ],
+        "rawTypes": "Creature — Human Warlock"
+    },
+    {
+        "id": 100,
+        "name": "Woodland Cemetery",
+        "imageuri": "https://cards.scryfall.io/normal/front/7/0/70f2ded4-ddc1-4a16-b967-92891995b2e8.jpg?1726285590",
+        "type": [
+            "Land"
+        ],
+        "rawTypes": "Land"
+    }
+]
