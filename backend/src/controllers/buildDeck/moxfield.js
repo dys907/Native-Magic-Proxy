@@ -6,7 +6,8 @@
 import {
   processDeckLines,
   categorizeType,
-  finalizeDeck
+  finalizeDeck,
+  imageSelector
 } from "../../helper/buildDeckHelper.js";
 import {scryfallQuery} from "../../helper/buildDeckApi.js";
 import regex from "../../configs/regex.config.js";
@@ -26,38 +27,51 @@ const moxfield = async (req, res) => {
   //api call to get card data from scryfall api
   try {
     const cardDetailsPromises = processedDeck.map(async (deckCard, index) => {
-      //honouring 10 calls or  less a second
+      //honouring 10 calls or less a second
       await delay(100 * index);
       
-      const cardResponse = await scryfallQuery(deckCard.name);
-      const rawCardTypes = cardResponse.type_line;
-      const cardTypes = categorizeType(rawCardTypes);
+      try {
+        const cardResponse = await scryfallQuery(deckCard.name);
+        const image = imageSelector(cardResponse.image_uris);
+        const rawCardTypes = cardResponse.type_line;
+        const cardTypes = categorizeType(rawCardTypes);
 
-      /*
-      quantity, name, imageuri, type, rawTypes
-      */
-      return {
-        ...deckCard,
-        imageuri: cardResponse.image_uris.normal,
-        type: cardTypes,
-        rawTypes: rawCardTypes,
-      };
+        /*
+        quantity, name, imageuri, type, rawTypes
+        */
+        return {
+          ...deckCard,
+          imageuri: image,
+          type: cardTypes,
+          rawTypes: rawCardTypes,
+        };
+      } catch (err) {
+        console.log(`Error querying card: ${deckCard.name}`, err);
+        return {
+          ...deckCard,
+          imageuri: null,
+          type: [],
+          rawTypes: "",
+        };
+      }
     });
 
     processedDeck = await Promise.all(cardDetailsPromises);
 
-    const finalDeck = finalizeDeck(processedDeck);
-    console.log(finalDeck.length);
-
-
-    res.send(finalDeck);
+    try {
+      const finalDeck = finalizeDeck(processedDeck);
+      console.log(finalDeck.length);
+      res.send(finalDeck);
+    } catch (err) {
+      res.status(500).send("Error finalizing deck");
+      console.log(err);
+      return;
+    }
   } catch (err) {
-    res.status(500).send("Error querying card database");
+    res.status(500).send("Error processing deck");
     console.log(err);
     return;
   }
-
-
 };
 
 export default moxfield;

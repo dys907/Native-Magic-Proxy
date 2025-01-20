@@ -1,12 +1,7 @@
-// const fs = require("fs").promises;
-// const path = require("path");
-// const { readLocalDataStore, findCardInfo, processDeckLines } = require("../../../helper/buildDeckHelper");
-// const regex = require("../../../configs/regex.config");
-
-import fs from "fs/promises";
 import path from "path";
-import { readLocalDataStore, findCardInfo, processDeckLines } from "../../../helper/buildDeckHelper.js";
+import { readLocalDataStore, findCardInfo, processDeckLines, finalizeDeck, } from "../../../helper/buildDeckHelper.js";
 import regex from "../../../configs/regex.config.js";
+import httpStatusCodes from "../../../configs/httpCode.config.js";
 
 const __dirname = import.meta.dirname
 
@@ -29,17 +24,28 @@ const useLocalDataStore = async (req, res) => {
     const lines = data.split("\n");
     processedDeck = processDeckLines(lines, regex.titleAndQuant);
   } catch (err) {
-    res.status(500).send("Error reading data");
+    res.status(httpStatusCodes.NO_CONTENT).send("Error reading data");
     return;
   }
   try {
     const cardDataStore = await readLocalDataStore(dataStorePath);
-    const cardInfo = findCardInfo(processedDeck, cardDataStore);
-    res.send(cardInfo);
-    
+    try {
+      const cardInfo = findCardInfo(processedDeck, cardDataStore);
+      try {
+        const finalDeck = finalizeDeck(cardInfo);
+        console.log(finalDeck.length);
+        res.send(finalDeck);
+      } catch (err) {
+        console.error("Error finalizing deck:", err);
+        res.status(httpStatusCodes.INTERNAL_SERVER_ERROR).send("Error finalizing deck");
+      }
+    } catch (err) {
+      console.error("Error finding card info:", err);
+      res.status(httpStatusCodes.BAD_REQUEST).send("Error finding card info");
+    }
   } catch (err) {
-    res.status(500).send("Error querying card database");
-    return;
+    console.error("Error reading card data store:", err);
+    res.status(httpStatusCodes.SERVICE_UNAVAILABLE).send("Error reading card data store");
   }
 };
 export default useLocalDataStore;
