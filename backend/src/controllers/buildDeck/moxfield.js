@@ -7,7 +7,7 @@ import {
   processDeckLines,
   categorizeType,
   finalizeDeck,
-  imageSelector
+  imageUriCreator
 } from "../../helper/buildDeckHelper.js";
 import {scryfallQuery} from "../../helper/buildDeckApi.js";
 import regex from "../../configs/regex.config.js";
@@ -32,7 +32,7 @@ const moxfield = async (req, res) => {
       
       try {
         const cardResponse = await scryfallQuery(deckCard.name);
-        const image = imageSelector(cardResponse.image_uris);
+        const image = imageUriCreator(cardResponse.set, cardResponse.collector_number);
         const rawCardTypes = cardResponse.type_line;
         const cardTypes = categorizeType(rawCardTypes);
 

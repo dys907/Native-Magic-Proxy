@@ -29,17 +29,16 @@ const ImportDeck = (params) => {
   const handleImport = async () => {
     setLoading(true);
     try {
-      const response = await axios.post(' https://renewed-ape-kindly.ngrok-free.app/buildDeck/useLocalDataStore', deckList, 
+      const response = await axios.post('https://renewed-ape-kindly.ngrok-free.app/buildDeck/useLocalDataStore', deckList, 
         {
           headers: {
             'Content-Type': 'text/plain',
           },
         }
       );
-      const data = response.data;
-      console.log(data);
+      const deck = response.data;
       setLoading(false);
-      navigation.navigate('NewScreen', { data });
+      navigation.navigate('ConfirmForm', { deck });
     } catch (error) {
       setLoading(false);
       console.error(error);

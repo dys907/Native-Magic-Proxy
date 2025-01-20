@@ -47,7 +47,7 @@ export const findCardInfo = (processedDeck, dataStore) => {
     return processedDeck.map((deckCard) => {
       const cardDetails = dataStore.find((card) => card.name === deckCard.name);
       const rawCardTypes = cardDetails.type_line;
-      const image = imageSelector(cardDetails.image_uris)
+      const image = imageUriCreator(cardDetails.set, cardDetails.collector_number);
       const cardTypes = categorizeType(rawCardTypes);
       return {
         ...deckCard,
@@ -63,7 +63,10 @@ export const findCardInfo = (processedDeck, dataStore) => {
 
 };
 
-//make sure that the uris can be accessed and nothing crashes
+/*make sure that the uris can be accessed and nothing crashes
+* DO NOT USE
+*this does not work as intended, but I will leave it here because it serves the purpose to getting cards
+*/
 export const imageSelector = (cardImage) => {
   const placeholder = 'https://placehold.co/488x680/pnk?text=No+Image+Available';
   //normal > large > small > png > art_crop > border_crop
@@ -76,6 +79,18 @@ export const imageSelector = (cardImage) => {
   }
   else return placeholder;
 }
+/**
+ * 
+ * @param {*} set 
+ * @param {*} id 
+ * @returns the url used for card image
+ */
+export const imageUriCreator = (set, collector_number) => {
+
+   return `https://api.scryfall.com/cards/${set}/${collector_number}?format=image`
+}
+
+
 
 export const categorizeType = (types) => {
   try {
